@@ -56,7 +56,11 @@ dependencies {
 
     implementation("io.coil-kt:coil:$coil_version")
 
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
     implementation "androidx.paging:paging-runtime:$paging_version"
+
+    implementation "com.airbnb.android:lottie:$lottieVersion"
 
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"

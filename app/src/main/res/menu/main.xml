@@ -5,5 +5,32 @@
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_baseline_event_note_24"
+        android:enabled="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ation_settins"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_baseline_ballot_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_invisible"
+        android:orderInCategory="100"
+        android:title=" "
+        android:enabled="false"/>
+    <item
+        android:id="@+id/actio_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_baseline_insert_photo_24"
+        android:enabled="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settins"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:enabled="true"
+        app:showAsAction="always" />
 </menu>
